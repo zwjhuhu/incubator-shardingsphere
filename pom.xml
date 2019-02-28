@@ -20,10 +20,11 @@
         <module>sharding-opentracing</module>
         
         <module>sharding-sql-test</module>
+		<module>sharding-jdbc-example</module>
     </modules>
     
     <properties>
-        <java.version>1.7</java.version>
+        <java.version>1.8</java.version>
         <maven.version.range>[3.0.4,)</maven.version.range>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.locale>zh_CN</project.build.locale>
