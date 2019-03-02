@@ -60,8 +60,8 @@ public abstract class CommonServiceImpl implements CommonService {
         System.out.println("-------------- Process Success Begin ---------------");
         List<Long> orderIds = insertData();
         printData();
-        deleteData(orderIds);
-        printData();
+        //deleteData(orderIds);
+        //printData();
         System.out.println("-------------- Process Success Finish --------------");
     }
     

@@ -36,12 +36,12 @@ public final class AnnotationCommonServiceScenario implements Scenario {
         try {
             commonService.initEnvironment();
             commonService.processSuccess();
-            commonService.processFailure();
+            //commonService.processFailure();
         } catch (final Exception ex) {
             System.out.println(ex.getMessage());
             printData();
         } finally {
-            commonService.cleanEnvironment();
+            //commonService.cleanEnvironment();
         }
     }
     

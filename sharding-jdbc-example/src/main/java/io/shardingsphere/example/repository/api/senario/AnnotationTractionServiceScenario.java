@@ -30,9 +30,9 @@ public final class AnnotationTractionServiceScenario extends AbstractTransaction
         try {
             getTransactionService().initEnvironment();
             doInTransactionWithSuccess();
-            doInTransactionWithFailure();
+            //doInTransactionWithFailure();
         } finally {
-            getTransactionService().cleanEnvironment();
+            //getTransactionService().cleanEnvironment();
         }
     }
 }
